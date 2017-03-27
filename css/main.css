@@ -136,7 +136,7 @@ section{
   height: 50px;
 }
 
-#freecodecamp, #linkedin,#email{
+#freecodecamp, #linkedin,#email,#github{
   border-radius:25px;
   border: solid 2px #40CED7;
   font-size: 1.5em;
