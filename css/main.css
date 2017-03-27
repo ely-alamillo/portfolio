@@ -1,0 +1,152 @@
+/* GLOBAL CSS */
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+    overflow-x:hidden;
+    font-family: 'Audiowide', serif;
+}
+
+
+section{
+  display:block;
+  height:100vh;
+  min-width:100%;
+  box-sizing:border-box;
+}
+
+.seperator{
+  border-top: solid 5px;
+}
+
+.seperator-light{
+  border-top: solid 5px white;
+}
+
+.navbar-custom {
+  background-color:black;
+  border-bottom:solid;
+  border-bottom-color:red;
+}
+
+.navbar-brand strong {
+    letter-spacing:10px;
+    color: red;
+}
+
+.navbar-brand:hover strong {
+  color:white;
+
+}
+
+
+
+#home{
+  background:url("https://images.pexels.com/photos/7108/notebook-computer-chill-relax.jpg?w=1260&h=750&auto=compress&cs=tinysrgb") no-repeat center center fixed;
+  background-size: cover;
+  padding-top:25%;
+}
+
+#home h1{
+  padding-bottom:0px;
+  font-family: 'Audiowide', serif;
+  font-size: 5em;
+}
+
+#home h5{
+  font-family: 'Audiowide', serif;
+  font-size: 3.0em;
+  color:red;
+
+}
+
+#home h1, h5{
+  color:red;
+  text-align:center;
+  letter-spacing: 10px;
+  text-shadow: 10px 10px 15px #000000;
+}
+
+#about {
+  background-color:black;
+  padding-top:80px;
+  min-height:100%;
+  height:auto;
+}
+
+#about .jumbotron{
+  background-color:transparent;
+  text-align:center;
+  font-size:200px;
+}
+#about span{
+  color:green;
+}
+
+#projects{
+  background-color:blue;
+  background:url("http://il5.picdn.net/shutterstock/videos/6728728/thumb/1.jpg");
+  min-height:100%;
+  height:auto;
+  padding-top:5%;
+  padding-bottom:3%;
+}
+
+#projects h1 {
+  color:white;
+  font-size:57.5px;
+  text-align: center;
+}
+
+#projects .lead {
+  color:red;
+}
+
+.thumbnail:hover img {
+  opacity: .5;
+  background-color: black;
+}
+
+
+#contact {
+  height:30%;
+  background-color: white;
+
+}
+
+#contact .jumbotron {
+  background-color: transparent;
+}
+
+.social{
+  list-style: none;
+  padding: 0px;
+}
+
+.social li{
+  display: inline;
+  margin: 10px;
+}
+
+.social li a{
+  display: inline-block;
+  color: #fc6e51;
+  width: 50px;
+  height: 50px;
+}
+
+#freecodecamp, #linkedin,#email{
+  border-radius:25px;
+  border: solid 2px #40CED7;
+  font-size: 1.5em;
+  padding:10px;
+}
+
+
+/*.box {
+    padding: 25px 7% 0;
+    text-align: center;
+    position: relative;
+    background: #fff;
+} */
