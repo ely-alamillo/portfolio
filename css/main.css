@@ -87,6 +87,7 @@ section{
 #projects{
   background-color:blue;
   background:url("http://il5.picdn.net/shutterstock/videos/6728728/thumb/1.jpg");
+  background-size: cover;
   min-height:100%;
   height:auto;
   padding-top:5%;
