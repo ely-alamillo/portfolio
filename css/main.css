@@ -93,6 +93,11 @@ section{
   padding-bottom:3%;
 }
 
+#projects .same-height {
+  min-height:300px;
+  min-width: 300px;
+}
+
 #projects h1 {
   color:white;
   font-size:57.5px;
