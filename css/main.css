@@ -55,6 +55,7 @@ section{
   background:url("https://images.pexels.com/photos/7108/notebook-computer-chill-relax.jpg?w=1260&h=750&auto=compress&cs=tinysrgb") no-repeat center center fixed;
   background-size: cover;
   padding-top:20%;
+  -webkit-transform: translate3d(0,0,0);
 }
 
 #home h1{
