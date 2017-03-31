@@ -7,9 +7,14 @@ html, body {
     overflow-x:hidden;
     font-family: 'Audiowide', serif;
     background-color: black;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
 }
+
+body {
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+}
+
 
 section{
   display:block;
