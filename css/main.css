@@ -9,6 +9,7 @@ html, body {
     background-color: black;
 }
 
+/* momemtum scroll*/
 body {
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
@@ -55,7 +56,7 @@ section{
   background:url("https://images.pexels.com/photos/7108/notebook-computer-chill-relax.jpg?w=1260&h=750&auto=compress&cs=tinysrgb") no-repeat center center fixed;
   background-size: cover;
   padding-top:20%;
-  -webkit-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0); /* used to stop scroll from hidding background*/
 }
 
 #home h1{
@@ -141,7 +142,7 @@ section{
 
 .social{
   list-style: none;
-  padding: 0px;
+  padding: 0px 0px 15px 0px;
   margin-bottom: 0%;
 }
 
