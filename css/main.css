@@ -6,6 +6,7 @@ html, body {
     padding:0;
     overflow-x:hidden;
     font-family: 'Audiowide', serif;
+    background-color: black;
 }
 
 section{
@@ -17,9 +18,10 @@ section{
 
 .seperator{
   border-top: solid 5px black;
+  width:70%;
 }
 
-.seperator-light-logo{
+.seperator-light{
   border-top: solid 5px white;
   width:70%;
 }
@@ -81,7 +83,7 @@ section{
   font-size:200px;
 }
 #about span{
-  color:green;
+  color:red;
 }
 
 #projects{
@@ -99,11 +101,11 @@ section{
 }
 #projects .same-height {
   min-height:320px;
-  min-width: 300px;
+  min-width: 320px;
 }
 
 #projects h1 {
-  color:white;
+  color:red;
   font-size:57.5px;
   text-align: center;
 }
@@ -119,8 +121,10 @@ section{
 
 
 #contact {
-  height:30%;
+  height:28%;
   background-color: white;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 #contact .jumbotron{
@@ -130,6 +134,7 @@ section{
 .social{
   list-style: none;
   padding: 0px;
+  margin-bottom: 0%;
 }
 
 .social li{
@@ -151,9 +156,33 @@ section{
   padding:10px;
 }
 
-/*.box {
-    padding: 25px 7% 0;
-    text-align: center;
-    position: relative;
-    background: #fff;
-} */
+footer {
+  background-color: black;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: solid 3px black;
+}
+
+footer h1 {
+  font-size: 13px;
+  color: #fff;
+  text-align:center
+}
+
+footer a {
+  color:#fff
+}
+
+footer a:hover {
+  color:#fff;
+  background-color:rgba(81, 69, 107,0.9);
+  text-decoration:underline;
+}
+
+/* Smartphones (portrait)*/
+@media only screen
+and (max-width : 320px) {
+  #home{
+      padding-top:50%;
+  }
+}
